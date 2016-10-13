@@ -1,8 +1,9 @@
 # ShiftNMFk.jl
-ShiftNMFk1.1
+ShiftNMFk1.1 works ONLY with a small number of unknown sources (max 3 sources).
 The module ShiftNMFk is contained within the ShiftNMFkMD.jl file in src.
 It uses the rest of the files in src to export several functions used to perform the entire ShiftNMFk procedure and find the locations of the sources. 
-If you work with Julia 0.5 work in directory J0.5, for Julia 0.4.6 - work in the main directory.
+If you work with Julia 0.5 please work in directory J0.5, for Julia 0.4.6 - work in the main directory.
+The examples are in the foulders OutsideGrid and InsideGrid
 Two examples are provided. Both feature a grid of 16 detectors and 3 sources. In one example the sources are inside the grid while in the other they are outside. These examples are the same found in our ShiftNMFk paper.  
 
 To run and example:
