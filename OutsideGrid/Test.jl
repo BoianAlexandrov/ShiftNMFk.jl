@@ -12,11 +12,11 @@ end
 
 @everywhere setdir()
 
-@everywhere include("../src/ShiftNMFkMD.jl"); # including the module on all cores
+@everywhere include("src/ShiftNMFkMD.jl"); # including the module on all cores
 @everywhere using ShiftNMFk    				# using the module ShiftNMFk on all cores
 
-X = readcsv("./InputOutGrid/Observation.csv");		#Inputing the observation matrix of the desired example
-micPos = readcsv("./InputOutGrid/MicPosition.csv"); # The coordinates of the detectors in the grid
+X = readcsv(".InputOutGrid/Observation.csv");		#Inputing the observation matrix of the desired example
+micPos = readcsv("InputOutGrid/MicPosition.csv"); # The coordinates of the detectors in the grid
 maxSource = 3;										#5 max number of sources
 globalIter = 	10;								# 1000 NMF runs for each guess of a sources								
 nmfIter = 100;									# 80,000 max number of iterations for each source.
