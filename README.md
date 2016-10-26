@@ -1,5 +1,5 @@
 # ShiftNMFk.jl
-ShiftNMFk1.1 works ONLY with a small number of unknown sources (max 3 sources).
+ShiftNMFk1.1 works ONLY with a small number of unknown sources (max 3 sources) and with even numbe rof time points of the signals.
 The module ShiftNMFk is contained within the ShiftNMFkMD.jl file in src.
 It uses the rest of the files in src to export several functions used to perform the entire ShiftNMFk procedure and find the locations of the sources. 
 If you work with Julia 0.5 please work in directory J0.5, for Julia 0.4.6 - work in the main directory.
