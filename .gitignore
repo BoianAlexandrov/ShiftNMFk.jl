@@ -2,3 +2,5 @@
 *.jl.*.cov
 *.jl.mem
 deps/deps.jl
+# Ignore Mac DS_Store files
+.DS_Store
